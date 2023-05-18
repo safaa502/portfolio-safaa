@@ -1,0 +1,40 @@
+[
+    {
+        "title": " BlockChain Projet",
+        "image": "./projectImages/blockchain.jpg",
+        "technologies": "HTML | Bootstrap | Flask | Solidity ",
+        "description": "Implementation of a Blockchain-based system allowing the digitization and verification of the authenticity of transcripts",
+       
+        "bgcolor": "#acdcc0",
+        "id": "4"
+      },
+    
+      {
+        "title": "Python Project ",
+        "image": "./projectImages/logo python.png",
+        "description": "desktop application that displays on a map the shortest route between all service stations of a given brand",
+        "technologies": "Python",
+        
+        "bgcolor": "#ffe851",
+        "id": "1"
+      },
+    
+      {
+        "title": "Laravel Project",
+        "image": "./projectImages/laravel.png",
+        "technologies": "Laravel | PhP",
+        "description": "Point management project.",
+       
+        "bgcolor": "#fde9e0",
+        "id": "6"
+      },
+      {
+        "title": "Wordpress Project",
+        "image": "./projectImages/wordpress.png",
+        "technologies": "WordPress",
+        "description": "website for the Polydisciplinary Faculty of Sidi Bennour using Wordpress..",
+       
+        "bgcolor": "#84e0e0",
+        "id": "6"
+      }
+]

@@ -128,4 +128,12 @@ textarea {
     margin-bottom: 7px;
     margin-right: 10px;
   }
+  .contact.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
 }

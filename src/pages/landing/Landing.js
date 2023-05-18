@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import landingImage from "../../images/me.svg";
+import landingImage from "../../images/aboutme.jpeg";
 import Draw from "../../components/Draw";
 import SocialIcons from "../../components/SocialIcons";
 
@@ -8,17 +8,18 @@ const Landing = ({ name }) => {
   const styles = {
     landing: {
       height: "calc(100% - 93px)",
-      display: "flex",
+        display: "flex",
       justifyContent: "center",
       alignItems: "center",
     },
 
     landingImage: {
       position: "absolute",
-      bottom: "0",
+      top: "30%", 
+      right: "0%",
       opacity: "0.3",
       mixBlendMode: "lighten",
-      height: "80%",
+      height: "50%",
     },
 
     textContainer: {
@@ -71,7 +72,7 @@ const Landing = ({ name }) => {
           transition={{ duration: 1, ease: "easeInOut" }}
           style={styles.landingImage}
           src={landingImage}
-          alt="Michael Yeates"
+          alt="Safaa El Harras"
         />
       </div>
       <SocialIcons />

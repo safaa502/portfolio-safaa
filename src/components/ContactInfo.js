@@ -15,7 +15,7 @@ const ContactInfo = ({ name, email, location }) => {
       transition={{ duration: 0.4, ease: "easeInOut" }}
     >
       <h4 className="contentTitle">Contact Information</h4>
-      <p className="infoDescription">Open for opportunities. Let's connect and build something awesome together! </p>
+      <p className="infoDescription"> </p>
       <ul className="listInfo">
         <li>
           <div className="personalContactInfo">
@@ -52,6 +52,20 @@ const ContactInfo = ({ name, email, location }) => {
             </div>
           </div>
         </li>
+        <li>
+          <div className="personalContactInfo">
+            <span className="infoIcon">
+              <i className="icon fa-brands fa-linkedin"></i>{" "}
+            </span>
+            <div className="mediaWrap">
+              <h6 className="infoType">Linkedin</h6>
+              <span className="infoValue">
+                <a href="https://www.linkedin.com/in/safaa-el-harras-950225253/">safaa-el-harras</a>
+              </span>
+            </div>
+          </div>
+        </li>
+      
       </ul>
     </motion.div>
   );

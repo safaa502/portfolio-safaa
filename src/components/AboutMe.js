@@ -50,8 +50,8 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
           transition={{ duration: 0.4, ease: "easeInOut" }}
         >
           <div className="contentContainer">
-            <h4>Nice to meet you</h4>
-            <h5>Frontend Web Developer who creates amazing digital experiences!</h5>
+            {/* <h4>Nice to meet you</h4> */}
+            <h5>backend Web Developer who creates amazing digital experiences!</h5>
             <div className="contentDescription">
               <p>{brand}</p>
             </div>
@@ -59,7 +59,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
               <div className="row">
                 <div className="col-12 col-md-6 info">
                   <span>Name:</span>
-                  <p>Michael Yeates</p>
+                  <p>Safaa El Harras</p>
                 </div>
                 <div className="col-12 col-md-6 info">
                   <span>Email:</span>
@@ -73,16 +73,11 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
                   <span>Location:</span>
                   <p>{location}</p>
                 </div>
-                <div className="col-12 col-md-6 info">
-                  <span>Availability:</span>
-                  <p>{availability}</p>
-                </div>
+                
               </div>
             </div>
             <div className="buttonContainer">
-              <button className="btn downloadCV" onClick={handleDownload} disabled={downloading}>
-                {downloading ? "Downloading..." : "Download Resume"}
-              </button>{" "}
+             
               <SocialIcons />
             </div>
           </div>

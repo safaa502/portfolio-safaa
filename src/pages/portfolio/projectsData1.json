@@ -1,0 +1,31 @@
+[
+    {
+        "title": "Certification in JavaFx",
+        "image": "./projectImages/JavaFx.jpg",
+        "technologies": "JavaFx",
+        "description": "certification in javafx offered by mindluster",
+        
+        "bgcolor": "#ada18c",
+        "id": "4"
+      },
+    
+      {
+        "title": "Python certification",
+        "image": "./projectImages/python .png",
+        "description": "certification in python (basic) offered by HackerRank",
+        "technologies": "Python",
+        
+        "bgcolor": "#999999",
+        "id": "1"
+      },
+    
+      {
+        "title": "Python certification 2",
+        "image": "./projectImages/python2.png",
+        "technologies": "Python",
+        "description": "certification in python (basic program) offered by GreatLearning",
+        
+        "bgcolor": "#bfa97e",
+        "id": "6"
+      }
+]
